@@ -9,7 +9,7 @@
 		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
 		<script type="text/javascript">
-			window.onload = function(e){
+			$(function(e){
 				var rectangles = [];
 				var size = 400;
 				var screen_width = screen.width;
@@ -49,7 +49,7 @@
 					$container.packery( 'appended', elem );
 				};
 				$container.packery();
-			}
+			})
 		</script>
 	</body>
 </html>
